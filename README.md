@@ -6,29 +6,29 @@ Dataset Information:
 Source: Kaggle – Airlines Flights Data Analysis
 
 Tables:
-flight_id	 -  Primary key for each flight
-airline	- Airline operating the flight
-source_city	- City of departure
-destination_city -	City of arrival
-departure_time	- Part of day: Morning, Afternoon, etc.
-stops	- Stop info: Non-stop, 1 Stop, 2 Stops
-duration -	Duration of the flight
-days_left	- Days between booking and departure
-class	- Economy or Business
-price	- Final price of the flight ticket
+flight_id	 -  Primary key for each flight,
+airline	- Airline operating the flight,
+source_city	- City of departure,
+destination_city -	City of arrival,
+departure_time	- Part of day: ( Morning, Afternoon, etc ),
+stops	- Stop info: ( Non-stop, 1 Stop, 2 Stops ),
+duration -	Duration of the flight,
+days_left	- Days between booking and departure,
+class	- Economy or Business,
+price	- Final price of the flight ticket,
 
 Objectives:
-Analyze flight fare trends across different routes and airlines
-Compare pricing based on time of day: morning, afternoon, evening, night
-Identify the most expensive and cheapest routes
-Examine seasonal or monthly fare changes
-Use SQL JOINs, GROUP BY, ORDER BY, aggregate functions and window functions for insights
+Analyze flight fare trends across different routes and airlines,
+Compare pricing based on time of day: ( morning, afternoon, evening, night ),
+Identify the most expensive and cheapest routes,
+Examine seasonal or monthly fare changes,
+Use SQL JOINs, GROUP BY, ORDER BY, aggregate functions and window functions for insights,
 
 SQL Features Used:
-GROUP BY and HAVING for aggregation
-INNER JOIN, LEFT JOIN for combining multiple tables
-CASE statements to handle time categories (morning/evening)
-RANK() and DENSE_RANK() for ranking fares
-DATE functions for monthly or seasonal analysis
-UBQUERIES and CTEs for clean, readable logic
+GROUP BY and HAVING for aggregation,
+INNER JOIN, LEFT JOIN for combining multiple tables,
+CASE statements to handle time categories (morning/evening),
+RANK() and DENSE_RANK() for ranking fares,
+DATE functions for monthly or seasonal analysis,
+UBQUERIES and CTEs for clean, readable logi
 
